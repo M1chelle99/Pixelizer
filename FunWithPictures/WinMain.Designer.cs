@@ -29,6 +29,7 @@ namespace FunWithPictures
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WinMain));
             this.SuspendLayout();
             // 
             // WinMain
@@ -38,9 +39,9 @@ namespace FunWithPictures
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(484, 461);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "WinMain";
-            this.ShowIcon = false;
             this.Text = "Let\'s have some fun with Pictures";
             this.ResumeLayout(false);
 
