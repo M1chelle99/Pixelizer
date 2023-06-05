@@ -1,5 +1,5 @@
 ﻿
-namespace FunWithPictures
+namespace Pixelizer
 {
     partial class WinMain
     {
